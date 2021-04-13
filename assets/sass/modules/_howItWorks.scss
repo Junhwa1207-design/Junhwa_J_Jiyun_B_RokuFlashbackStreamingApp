@@ -1,0 +1,38 @@
+// html {
+//   width: 100%;
+//   flex-wrap: wrap;
+// }
+
+button {
+  //padding: 10px 25px;
+  font-size: 22px;
+  line-height: 30px;
+  min-width: 50px;
+  text-align: center;
+  cursor: pointer;
+  background: linear-gradient(to right bottom, #273c75, #079992);
+  color: #fff;
+  border-radius: 5px;
+  border: 0px;
+  height: 45px;
+  margin-top: 8px;
+}
+.music {
+  width: 100%;
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 0;
+}
+.musicImage {
+  flex-wrap: wrap;
+  display: flex;
+  margin: 0;
+  flex-direction: column;
+  padding: 10px;
+}
+.musicImage img {
+  width: 320px;
+  height: 270px;
+}

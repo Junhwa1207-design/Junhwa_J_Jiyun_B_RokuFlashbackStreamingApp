@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+{{>htmlhead}}
+
+<body>
+
+    {{>header}}
+
+
+    <h4>Free movies, TV and more</h4>
+
+
+
+
+
+
+    <div class="slider">
+        <h1>The ROKU Channel</h1>
+        <h6>Your home for free TV.
+            Enjoy an always-changing selection of free movies, shows, live news, kids’ TV, and more.</h6>
+        <div class="slider-items">
+            <div class="item active">
+                <img src="imagesSlide/6.jpeg" alt="">
+                <div class="caption">
+                    Find your old Movie!
+                </div>
+            </div>
+            <div class="item">
+                <img src="imagesSlide/7.jpeg" alt="">
+                <div class="caption">
+                    Find your old Movie!
+                </div>
+            </div>
+            <div class="item">
+                <img src="imagesSlide/8.jpeg" alt="">
+                <div class="caption">
+                    Find your old Movie!
+                </div>
+            </div>
+            <div class="item">
+                <img src="imagesSlide/9.jpeg" alt="">
+                <div class="caption">
+                    Find your old Movie!
+                </div>
+            </div>
+            <div class="item">
+                <img src="imagesSlide/10.jpeg" alt="">
+                <div class="caption">
+                    Find your old Movie!
+                </div>
+            </div>
+        </div>
+
+        <div class="left-slide">></div>
+        <div class="right-slide">
+            < </div>
+        </div>
+
+
+
+        <main id="app">
+
+
+            <h5>Now playing for free on The Roku Channel</h5>
+
+            <section class="user-section"></section>
+
+        </main>
+
+        {{>footer}}
+
+
+
+
+        <template id="user-template">
+            <div class="user">
+
+                <img src="temp.jpg" alt="user image">
+                <h4 class="user-name"></h4>
+                <h5 class="user-description"></h5>
+                <h5 class="user-year"></h5>
+            </div>
+        </template>
+        <!-- end templates -->
+        <!--lightbox -hidden by default, dynamic content -->
+        {{!-- <sectoin class="lightbox">
+            <span class="close-button">X</span>
+            <img src="" alt="" class="lb-image">
+            <h4 class="lb-title"></h4>
+            <h5 class="lb-desc"></h5>
+        </sectoin> --}}
+
+
+</body>
+
+<script type="module" src="js/main.js"></script>
+<script type="module" src="js/main2.js"></script>
+<script type="module" src="js/main3.js"></script>
+
+</html>

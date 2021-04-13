@@ -1,0 +1,32 @@
+{
+  "name": "jung_j_bae_j_rokuflashback-main",
+  "version": "1.0.0",
+  "description": "## Junhwa Jung & Jiyun Bae",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app",
+    "start-dev": "nodemon app"
+  },
+  "keywords": [
+    "node",
+    "npm",
+    "learning"
+  ],
+  "author": "juna",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "gulp": "^4.0.2",
+    "hbs": "^4.1.1",
+    "html": "^1.0.0",
+    "html-get": "^2.8.21",
+    "http-proxy-middleware": "^1.1.1",
+    "mysql": "^2.18.1",
+    "puppeteer": "^8.0.0",
+    "underscore": "^1.13.0"
+  },
+  "devDependencies": {
+    "gulp-sass": "^4.1.0",
+    "nodemon": "^2.0.7"
+  }
+}

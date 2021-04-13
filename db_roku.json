@@ -1,0 +1,28 @@
+[
+{"type":"header","version":"4.9.3","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"db_roku"},
+{"type":"table","name":"channelA","database":"db_roku","data":
+[
+{"id":"1","name":"Ingrid Goes West","year":"2017 | 1h 38m","description":"Desperate for human contact, an obsessive young woman moves to Venice Beach, Calif., to strike up a friendship with a social media celebrity.","image":"movieChannelA1.jpg"},
+{"id":"2","name":"Racer and the Jailbird","year":"2017 | 2h 10m","description":"From the Academy Award nominated director of Bullhead.","image":"movieChannelA2.jpg"},
+{"id":"3","name":"Bad Ass","year":"2012 | 1h 45m","description":"A decorated Vietnam War veteran (Danny Trejo) takes justice into his own hands when his best friend is murdered and the police are slow to solve the case.","image":"movieChannelA3.jpg"},
+{"id":"4","name":"Hell's Kitchen","year":"2005","description":"Genres: Reality | Cooking","image":"tvChannelA1.jpg"},
+{"id":"5","name":"Forensic Files","year":"1996","description":"Genres: Documentary | Crime | Medical\\r\\n\\r\\nRetracing the steps of real investigations with interviews and dramatic re-creations as experts draw on forensic science to solve baffling crimes and other mysteries.","image":"tvChannelA2.jpg"},
+{"id":"6","name":"Doc Martin","year":"2004","description":"Genres: Comedy drama | Medical\\r\\nDr Martin Ellingham leaves a busy London practice to start a small surgery in Portwenn, but his abrasive bedside manner leaves the locals wanting him gone.","image":"tvChannelA3.jpg"},
+{"id":"7","name":"Literally, Right Before Aaron","year":"2017 | 1h 42m","description":"Adam is devastated to learn that his ex-girlfriend has invited him to her upcoming wedding. Returning home for the festivities, Adam must confront unresolved feelings while trying to convince himself and everyone else that he is truly happy for her.","image":"movieChannelA4.jpg"},
+{"id":"8","name":"Cash Cab","year":"2005","description":"Unsuspecting taxi cab passengers answer trivia questions posed by host Ben Bailey; the passengers may reach their destination with cold hard cash or walk away empty-handed.","image":"tvChannelA4.jpg"}
+]
+}
+,{"type":"table","name":"channelK","database":"db_roku","data":
+[
+{"id":"1","name":"KidoodleTV - Safe Streaming","description":"Stream over 25,000+ FREE episodes of your favorite kids’ shows (like PAW Patrol: Pup Tales, Talking Tom, Roblox, My Little Pony, and more!), pre-screened by real people.","image":"kidsChannel1.jpeg"},
+{"id":"2","name":"HappyKids.tv","description":"HappyKids.tv is a FREE and SAFE app designed to Educate and Entertain kids. The content is segmented by age group for 0-2 years, 2-4 years, 4-6 years, and 6+. Find kid safe content across Popular Shows, Music, Movies, Learn at Home, DIY, and more. No registration needed. Install and stream instantly","image":"kidsChannel2.jpeg"},
+{"id":"3","name":"Neon Rider","description":"Neon Rider gets really addictive and challenging game as you start playing it and keep making progress. Perform insane stunts while you cruise through the never-ending world of Rider! Grab your motorcycle and start flipping like a maniac!","image":"kidsChannel3.jpeg"},
+{"id":"4","name":"Pokémon TV","description":"Watch amazing Pokémon animated adventures starring Ash, Pikachu, and all their friends. Plus, don't miss exciting special features and trailers for upcoming Pokémon movie events. It's the perfect app for Pokémon fans to keep up with Pokémon TV episodes. Even better - this Pokémon TV app is free!","image":"kidsChannel4.jpeg"},
+{"id":"5","name":"The Gummibaer Channel","description":"The channel to watch everyone's favorite singing and dancing animated gummy bear!","image":"kidsChannel5.jpeg"},
+{"id":"6","name":"LooLoo Kids - Nursery Rhymes","description":"LooLoo Kids is the place where kids find all their favorite nursery rhymes and songs with lyrics. Our fun 3D animated videos are perfectly adapted for their development, and kids enjoy learning new things while watching the videos. Enjoy the best quality edutainment for babies, toddlers and kids!","image":"kidsChannel6.jpeg"},
+{"id":"7","name":"Knowledge Kids","description":"Paw Patrol, Wild Kratts, Abby Hatcher, Geronimo Stilton, Shaun the Sheep and more! Watch 100's of top-rated children's TV shows completely FREE and without ads or commercials. Brought to you by Knowledge Network, British Columbia's public broadcaster","image":"kidsChannel7.jpeg"},
+{"id":"8","name":" Fortnite Lovers","description":"We all love Fortnite, we all love adventure: discover one of the greatest channels of Fortnite lovers. gaming fanatics from all over the world enjoying fortnite, funny Creative Commons videos and mainly have an awesome time","image":"kidsChannel8.jpeg"}
+]
+}
+]

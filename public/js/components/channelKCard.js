@@ -7,7 +7,7 @@ data:
 
 function() {
     return {
-        myName: this.movie.name,
+        myMovie: this.movie.name,
         //myYear: this.work.year,
         myDescription: this.movie.description,
         program: "IDP",
@@ -18,7 +18,7 @@ function() {
 
 template: `
 <li @click="logClicked">
-        <img :src="'imagesKids/' + movie.image" :alt='movie.name + " image"'>
+        <img @click="loadPlayer(movie)" :src="'images2' + movie.image" :alt='movie.name + " image"'>
         
         <p class=" remove-movie">{{ movie.name }}</p>
 
@@ -26,9 +26,13 @@ template: `
         <a href="" class="remove-movie">Remove {{ movie.name }}</a>-->
     </li>
 `, 
-created: function () { console.log(`created ${this.movie.name}'s card`); },
+created: function () { 
+    console.log(`created ${this.movie.name}'s card`); },
 
 methods: { 
     logClicked() { 
         console.log(`fired from inside ${this.movie.name}'scomponent!`); 
-        this.$emit("showmydata", this.movie) } } }
+        this.$emit("showmydata", this.movie) } 
+    
+    
+    } }

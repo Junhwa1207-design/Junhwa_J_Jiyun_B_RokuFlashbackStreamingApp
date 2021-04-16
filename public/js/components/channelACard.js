@@ -18,7 +18,7 @@ function() {
 
 template: `
 <li @click="logClicked">
-        <img :src="'imagesAdult/' + movie.image" :alt='movie.name + " image"'>
+        <img @click="loadPlayer(movie)" :src="'images/' + movie.image" :alt='movie.name + " image"'>
         
         <p class=" remove-movie">{{ movie.name }}</p>
 
@@ -26,7 +26,8 @@ template: `
         <a href="" class="remove-movie">Remove {{ movie.name }}</a>-->
     </li>
 `, 
-created: function () { console.log(`created ${this.movie.name}'s card`); },
+created: function () { 
+    console.log(`created ${this.movie.name}'s card`); },
 
 methods: { 
     logClicked() { 
